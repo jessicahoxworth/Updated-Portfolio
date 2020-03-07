@@ -45,6 +45,10 @@ html {
    font-weight: 700;
    color: rgb(255, 248, 220);
  }
+
+ .about-header {
+   color: rgba(12, 10, 10, 0.685);
+ }
  
  .text-faded {
    color: rgba(255, 255, 255, 0.7);
@@ -154,11 +158,11 @@ html {
  }
  
  a {
-   color: #1D809F;
+   color: rgb(255, 248, 220);
  }
  
  a:hover, a:focus, a:active {
-   color: #155d74;
+   color: #f3f1ec;
  }
  
  .btn-primary {
@@ -213,7 +217,7 @@ form {
     margin-left: 185px;
     width:1050px;
     text-align: center;
-    
+    height: 100%;
 
     
    
