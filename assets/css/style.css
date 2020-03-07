@@ -1,13 +1,13 @@
 
- body, 
- html {
+html {
    width: 100%;
    height: 100%;
  }
  
  body {
    font-family: 'Source Sans Pro';
-
+   background-image: url("../images/casey-horner-RmoWqDCqN2E-unsplash.jpg");
+  background-size: 2500px;
  }
 
  header {
@@ -18,19 +18,22 @@
  .btn-xl {
    padding: 1.25rem 2.5rem;
  }
+
+
  
  .content-section {
    padding-top: 7.5rem;
-   padding-bottom: 7.5rem;
  }
  
  .content-section-heading h2 {
    font-size: 3rem;
+   
  }
  
  .content-section-heading h3 {
    font-size: 1rem;
    text-transform: uppercase;
+   
  }
  
  h1,
@@ -40,6 +43,7 @@
  h5,
  h6 {
    font-weight: 700;
+   color: rgb(255, 248, 220);
  }
  
  .text-faded {
@@ -59,13 +63,14 @@
    font-weight: 700;
    display: block;
    max-width: 30rem;
+   padding-bottom: 7.5rem;
  }
  
  .portfolio-item {
    display: block;
    position: relative;
    overflow: hidden;
-   max-width: 530px;
+   max-width: 350px;
    margin: auto auto 1rem;
  }
  
@@ -205,6 +210,7 @@
 
 form { 
     margin: 0 auto; 
+    margin-left: 185px;
     width:1050px;
     text-align: center;
     
@@ -213,9 +219,7 @@ form {
    
 }
 
-.submit-btn {
-        margin-top: 5px;
-}
+
 
 
  
